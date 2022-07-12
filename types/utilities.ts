@@ -1,1 +1,1 @@
-export type noOp = () => void;
+export type NoOp = () => void;

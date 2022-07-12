@@ -1,12 +1,12 @@
 import { useState, useCallback } from 'react';
-import { noOp } from '../types/index';
+import { NoOp } from '../types/index';
 
 const useBoolean = (initialState: boolean = false) => {
   const [state, setState] = useState<boolean>(initialState);
-  const setTrue: noOp = useCallback(() => {
+  const setTrue: NoOp = useCallback(() => {
     setState(true);
   }, [setState]);
-  const setFalse: noOp = useCallback(() => {
+  const setFalse: NoOp = useCallback(() => {
     setState(false);
   }, [setState]);
 
