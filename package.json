@@ -1,6 +1,6 @@
 {
   "name": "nifty-react-hooks",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/omkarshelar/nifty-react-hooks.git"
@@ -8,6 +8,7 @@
   "description": "A set of useful react hooks for any project",
   "source": "src/index.ts",
   "main": "dist/main.js",
+  "module": "dist/module.js",
   "types": "dist/types.d.ts",
   "scripts": {
     "watch": "parcel watch",
